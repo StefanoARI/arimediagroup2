@@ -1,0 +1,6 @@
+{
+  "name": "Ari Media Group",
+  "description": "Agenzia di comunicazione creativa e orientata ai risultati",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
