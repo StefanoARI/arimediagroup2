@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/sitiit1/public_html/testsitiia/
+    - /bin/cp -R * $DEPLOYPATH
