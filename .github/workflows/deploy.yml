@@ -28,11 +28,11 @@ jobs:
       - name: Deploy su vHosting
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ${{ secrets.FTP_SERVER || 'ftp.100100siti.it' }}
-          username: ${{ secrets.FTP_USERNAME }}
+          server: ftp.100100siti.it
+          username: Testgoogleai@100100siti.it
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: public_html/testsitiia/
-          protocol: ftp
+          server-dir: ./
+          protocol: ftps
           port: 21
           security: loose
           local-dir: ./dist/
